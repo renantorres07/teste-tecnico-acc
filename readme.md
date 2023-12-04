@@ -21,8 +21,8 @@ This application aims to show the logs that were extracted from a company that s
 1. **Clone the repository**
    
    ´´´bash
-   git clone https://github.com/seu-usuario/projeto-xyz.git
-   cd projeto-xyz
+   git clone https://github.com/renantorres07/teste-tecnico-acc.git
+   cd teste-tecnico-acc
    ´´´
 
 1. **Backend**
