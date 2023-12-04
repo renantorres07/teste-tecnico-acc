@@ -20,34 +20,33 @@ This application aims to show the logs that were extracted from a company that s
 
 1. **Clone the repository**
    
-   ´´´bash
-   git clone https://github.com/renantorres07/teste-tecnico-acc.git
-   cd teste-tecnico-acc
-   ´´´
+   run commands:
+   - git clone https://github.com/renantorres07/teste-tecnico-acc.git
+   - cd teste-tecnico-acc
 
 1. **Backend**
    
    1. Access the backend directory:
-   `bash
-   cd backend
-   ´
+   
+   - cd backend
+   
    2. Run the command to start the backend:
-   bash
-   docker-compose up --build
+   
+   - docker-compose up --build
 
 2. **Frontend**
    1. Access the frontend directory:
-   ´bash
-   cd ../frontend
-   ´
+   
+   - cd ../frontend
+   
    2. Install dependencies:
-   ´bash
-   npm install
-   ´
+   
+   - npm install
+   
    3. Start the frontend application:
-   ´bash
-   npm start
-   ´
+   
+   - npm start
+   
 
 Access the application in the browser:
 
