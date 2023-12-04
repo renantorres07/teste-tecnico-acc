@@ -1,0 +1,30 @@
+version: '1'
+
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+    
+  
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  mongodb: 
+    image: mongo
+    ports:
+      - "27017:27017"
+
+  node:
+    build: ./frontend
+    command: npm start
+    depends_on:
+      - backend
